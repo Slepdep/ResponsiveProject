@@ -1,0 +1,141 @@
+*{
+    background-color: #392D47;
+    padding: .7em
+}
+.films > img{
+    width: auto;
+    height: 400px;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+.col-1-2 {
+    width: 50%;
+ }
+ .divr1 {
+     width: 100%;
+ }
+ .r1 {
+     width: 25%;
+ }
+ .navbar {
+    color: #5A5C79;
+    background-color: #7E8EA6;
+    font-size: 1.05em;
+    padding: 1.2em;
+ }
+
+ a:link, a:visited {
+    background-color: #A7D1D7;
+    color: #5A5C79;
+    padding: .875em 1.55em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #FEF1ED;
+    font-family: 'Righteous', cursive;
+  }
+  a:hover, a:active {
+    background-color: #FEF1ED;
+    color: #A7D1D7;
+    text-decoration: underline;
+  }
+  .foot {
+      background-color: #7E8EA6;
+      padding: 1.2em;
+  }
+ .bodtxt {
+     color: #A7D1D7;
+     text-indent: 3.15em;
+     padding: 1em;
+     font-family: 'Questrial', sans-serif;
+ }
+ .headtxt {
+     color: #FEF1ED;
+     text-shadow: -1px 0 #5A5C79, 0 1px #5A5C79, 1px 0 #5A5C79, 0 -1px #5A5C79; 
+     border-style: solid;
+     border-color: #5A5C79;
+     padding: .5em;
+     background-color: #A7D1D7;
+     border-radius: 1em;
+     font-family: 'Righteous', cursive;
+ }
+ .nam {
+     color: #FEF1ED;
+     text-align: center;
+     padding: .5em;
+     background-color: #7E8EA6;
+     font-family: 'Righteous', cursive;
+ }
+ img {
+    max-width: 100%;
+    border-style: solid;
+    border-color: #5A5C79;
+    padding: .5em;
+    border-radius: 1em;
+    background-color: #7E8EA6;
+ }
+ 
+ .col-1-4 {
+    width: 25%;
+    align-content: center;
+    max-width: 20.5em;
+    max-height: 20.5em;
+ }
+ #form {
+    border-style: solid;
+    border-color: #5A5C79;
+    padding: .5em;
+    border-radius: 1em;
+    background-color: #7E8EA6;
+ }
+ .inputbox {
+    background-color: #7E8EA6;
+    border-radius: 1em;
+    color: #FEF1ED;
+    font-family: 'Questrial', sans-serif;
+ }
+ .inlab {
+    color: #A7D1D7;
+    background-color: #5A5C79;
+    border-style: solid;
+    border-color: #FEF1ED;
+    border-radius: 1em;
+    padding: .3em;
+    font-family: 'Righteous', cursive;
+ }
+ #submit {
+     background-color: #FEF1ED;
+     color: #5A5C79;
+     border-radius: 1em;
+     font-family: 'Righteous', cursive;
+ }
+
+ @media(max-width: 600px) {
+    body  {
+background: yellow;
+}
+}
+
+@media(max-width: 1200px) {
+    .navbar  {
+background: red;
+}
+}
+
+@media(max-width: 400px) {
+    a:link, a:visited  {
+        padding: .55em 1.05em;
+}
+}
+
+/*the more complex queries refused to work so I did 3 different simpler ones. Something wasn't interacting right*/
+
+
